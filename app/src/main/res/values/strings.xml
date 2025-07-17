@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Application Dpei</string>
+    <string name="text_value">hello</string>
+    <string name="the_shape_of_this_image_is_android_character_in_white">the shape of this image is android character in white</string>
+    <string name="part1">part1</string>
+    <string name="part2_of_going_insane">part2 of going insane</string>
+    <string name="part1_of_going_insane">part1 of going insane</string>
+    <string name="the_full_meme_of_going_insane">the full meme of going insane</string>
+    <string name="my_name_is_mozn">My name is : Mozn</string>
+    <string name="my_age_is_19">My age is : 19</string>
+    <string name="https_www_linkedin_com_in_mozn_okasha_7b312b2b2_utm_source_share_utm_campaign_share_via_utm_content_profile_utm_medium_ios_app"><![CDATA[https://www.linkedin.com/in/mozn-okasha-7b312b2b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app]]></string>
+
+</resources>
