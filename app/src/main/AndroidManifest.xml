@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationDpei">
         <activity
-            android:name=".constraintActivity"
+            android:name=".ConstraintActivity"
             android:exported="true"
             android:theme="@style/Theme.ApplicationDpei" />
         <activity

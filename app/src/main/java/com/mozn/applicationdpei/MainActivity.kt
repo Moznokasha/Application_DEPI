@@ -2,21 +2,44 @@ package com.mozn.applicationdpei
 
 import android.os.Bundle
 import android.util.Log
+import android.view.View
+import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.google.android.material.snackbar.Snackbar
+import com.mozn.applicationdpei.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMainBinding
+   // private lateinit var tvUserName: TextView
     private var username : String = "default user"
     private val tag = "MainActivity"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        Log.d(tag, "onCreate")
-        val savedstring = savedInstanceState?.getString("username")?:"default user"
-        Log.d(tag, "Restored username: $username")
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+
+        binding.tvUsername.text = "sdfgh"
+        binding.ivUseravatar.visibility = View.VISIBLE
+        //
+       //Toast.makeText(this, "Hello Toast", Toast.LENGTH_LONG).show()
+        Snackbar.make(binding.root, "Hello snackbar",Snackbar.LENGTH_INDEFINITE )
+            .setAction("Dismiss"){
+                Toast.makeText(this, "Hello Toast", Toast.LENGTH_LONG).show()
+            }.show()
+
+
+//       val tvUserName : TextView = findViewById(R.id.tv_username)
+//        tvUserName.text = "Hello World"
+//        tvUserName.text = getString(R.string.app_name)
+//        tvUserName.visibility = View.VISIBLE
+
 
 
     }
@@ -39,7 +62,7 @@ override fun onSaveInstanceState(outState: Bundle) {
 
     override fun onResume() {
         super.onResume()
-        Log.d(tag, "onResume")
+
     }
 
     override fun onPause() {
