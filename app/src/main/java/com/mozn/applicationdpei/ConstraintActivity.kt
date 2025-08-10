@@ -7,18 +7,21 @@ import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import com.mozn.applicationdpei.databinding.ActivityConstraintBinding
+import androidx.core.net.toUri
 
 
 class ConstraintActivity : AppCompatActivity() {
     private lateinit var binding: ActivityConstraintBinding
 
     private fun openUrl(url: String) {
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+        val intent = Intent(Intent.ACTION_VIEW, url.toUri())
         startActivity(intent)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+
         binding = ActivityConstraintBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

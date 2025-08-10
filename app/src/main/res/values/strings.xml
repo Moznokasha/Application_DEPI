@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Application Dpei</string>
+    <string name="app_name">Application Depi</string>
     <string name="text_value">hello</string>
     <string name="the_shape_of_this_image_is_android_character_in_white">the shape of this image is android character in white</string>
     <string name="part1">part1</string>
@@ -61,5 +61,9 @@
     <string name="facebook">https://www.facebook.com/</string>
     <string name="google_login">https://accounts.google.com/ServiceLogin</string>
     <string name="linkedin_login">https://www.linkedin.com/login</string>
+    <string name="test">test</string>
+    <string name="sign_in_here">Sign in Here</string>
+    <string name="sign_in">Sign in</string>
+    <string name="or_sign_in_with">or sign in with</string>
 
 </resources>

@@ -5,4 +5,5 @@
     <color name="color_pressed">#EB0707</color>
     <color name="color_focused">#E2CD0A</color>
     <color name="gray">#7C7C81</color>
+    <color name="background">#1F319D</color>
 </resources>
