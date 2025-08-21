@@ -74,7 +74,7 @@
         android:layout_width="241dp"
         android:layout_height="70dp"
         android:layout_marginTop="60dp"
-        android:text="@string/sign_in"
+        android:text="@string/log_in"
         android:textSize="24sp"
         app:cornerRadius="12dp"
         app:layout_constraintEnd_toEndOf="parent"
