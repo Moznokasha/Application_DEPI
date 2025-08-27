@@ -1,8 +1,11 @@
 package com.mozn.applicationdpei.RecycleView
 
 import androidx.recyclerview.widget.DiffUtil
+import com.mozn.applicationdpei.API.Message
 
 class MyDiffUtil(
+//    private val oldList: List<com.mozn.applicationdpei.RecycleView.Message>,
+//    private val newList: List<com.mozn.applicationdpei.RecycleView.Message>
     private val oldList: List<Message>,
     private val newList: List<Message>
 
