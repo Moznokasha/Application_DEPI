@@ -45,12 +45,12 @@ class MainActivity : AppCompatActivity() {
             Post(userId = 2, id = 2, title = "How are you?", body = "Body text 2")
         )
 
-// هنا بنحوّل Post لـ Message
+
         val messages = posts.map { post ->
             Message(
                 id = post.id,
                 username = "User ${post.userId}",
-                text = post.title, // أو post.body لو عايز تعرض النص الكامل
+                text = post.title,
                 iconId = R.drawable.ic_launcher_foreground
             )
         }
